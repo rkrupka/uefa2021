@@ -17,10 +17,7 @@ class Team// public Player, public Coach
   public:
     static int licznik;
     string nationality;
-    void add_nationality()
-    {
-
-    }
+    void add_nationality();
 
     Player player[5];
 

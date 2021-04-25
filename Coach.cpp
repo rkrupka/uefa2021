@@ -10,6 +10,5 @@ using namespace std;
 
 Coach::Coach()
 {
-    charisma =( rand() % 6 );
-
+    charisma = ( rand() % 6 );
 }

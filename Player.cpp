@@ -20,10 +20,10 @@ void Player::basic_stats()
 
 void Player::reset_disposition()
 {
-    int k = ( rand() % 16 ) - 10;
+    int k = ( rand() % 21 ) - 10;
     this->disposition.attack = k;
-    k = ( rand() % 16 ) - 10;
-    this->disposition.defense = 5;
+    k = ( rand() % 21 ) - 20;
+    this->disposition.defense = k;
 }
 
 Player::Player()

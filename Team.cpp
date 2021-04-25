@@ -6,7 +6,8 @@
 
 using namespace std;
 int Team::licznik = 0;
-Team::Team()
+
+void Team::add_nationality()
 {
     licznik++;
     int i = licznik;
@@ -25,6 +26,10 @@ Team::Team()
             getline(plik3, nationality);
         }
     plik3.close();
+}
 
+Team::Team()
+{
+    add_nationality();
 }
 
