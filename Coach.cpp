@@ -15,4 +15,3 @@ Coach::Coach()
 
     cout << "Charisma = " << charisma << endl;
 }
-

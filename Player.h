@@ -27,20 +27,24 @@ class Player : public Person
         srand(time(NULL));
         int k = ( rand() % 50 ) + 51;
         for (int i = 0; i < 500000; i++)
-        this->base.attack = k;
+        base.attack = k;
         for (int i = 0; i < 500000; i++)
         k = ( rand() % 50 ) + 51;
-        this->base.defense = 5;
+        base.defense = k;
     }
+    /*void add_charisma()
+    {
+        this->base.attack =+ Coach::charisma;
+    } */
     void reset_disposition()
     {
         srand(time(NULL));
         int k = ( rand() % 16 ) - 10;
         for (int i = 0; i < 500000; i++)
-        this->disposition.attack = k;
+        disposition.attack = k;
         for (int i = 0; i < 500000; i++)
         k = ( rand() % 16 ) - 10;
-        this->disposition.defense = 5;
+        disposition.defense = 5;
     };
 
     Player();

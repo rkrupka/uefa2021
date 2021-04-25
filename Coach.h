@@ -7,6 +7,7 @@
 #include <cstdlib>
 #include <ctime>
 #include "Person.h"
+#include "Player.h"
 using namespace std;
 
 class Coach : public Person

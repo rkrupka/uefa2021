@@ -49,24 +49,25 @@
 	<cstdlib>
 	<ctime>
 
-1619258959 source:c:\users\radek\documents\uefa2020\coach.cpp
+1619338490 source:c:\users\radek\documents\uefa2020\coach.cpp
 	"Coach.h"
 	<iostream>
 	<cstdlib>
 	<ctime>
 
-1618763532 c:\users\radek\documents\uefa2020\coach.h
+1619339875 c:\users\radek\documents\uefa2020\coach.h
 	<iostream>
 	<cstdlib>
 	<ctime>
 	"Person.h"
+	"Player.h"
 
 1619332229 c:\users\radek\documents\uefa2020\person.h
 	<iostream>
 	<fstream>
 	<string>
 
-1619330942 source:c:\users\radek\documents\uefa2020\main.cpp
+1619342275 source:c:\users\radek\documents\uefa2020\main.cpp
 	<iostream>
 	<string>
 	<cstdlib>
@@ -84,13 +85,13 @@
 1619276235 c:\users\radek\documents\uefa2020\overall.h
 	<iostream>
 
-1619335952 c:\users\radek\documents\uefa2020\player.h
+1619342868 c:\users\radek\documents\uefa2020\player.h
 	<iostream>
 	"Person.h"
 	<cstdlib>
 	<ctime>
 
-1619332229 c:\users\radek\documents\uefa2020\team.h
+1619342231 c:\users\radek\documents\uefa2020\team.h
 	<iostream>
 	"Player.h"
 	"Coach.h"
@@ -99,14 +100,15 @@
 	<ctime>
 	<string>
 
-1619335696 source:c:\users\radek\documents\uefa2020\player.cpp
+1619342868 source:c:\users\radek\documents\uefa2020\player.cpp
 	"Player.h"
+	"Coach.h"
 	<iostream>
 	<fstream>
 	<cstdlib>
 	<ctime>
 
-1619334392 source:c:\users\radek\documents\uefa2020\team.cpp
+1619339942 source:c:\users\radek\documents\uefa2020\team.cpp
 	"Team.h"
 	<iostream>
 

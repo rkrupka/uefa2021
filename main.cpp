@@ -13,14 +13,17 @@ using namespace std;
 
 int main()
 {
-    Player gracz;
-    cout << "Imie gracza 1: " << gracz.first_name << " ,nazwisko gracza 1: " << gracz.last_name << endl;
-    int dalej = 1;
-    while (dalej)
+    Team druzyna;
+    for (int i = 0; i < 5; i++)
     {
-        Coach trener;
-        cin >> dalej;
+    cout << "Imie gracza " << i+1 << ": " << druzyna.playing[i].first_name << " ,nazwisko gracza " << i+1 << ": " << druzyna.playing[i].last_name << endl;
+    cout << "Statystyka bazowa ataku: " << druzyna.playing[i].base.attack << " , zas meczowa: " << druzyna.playing[i].disposition.attack << endl;
+    cout << "Statystyka bazowa obrony: " << druzyna.playing[i].base.defense << " , zas meczowa: " << druzyna.playing[i].disposition.defense << endl;
+    cout << "Statystka aktualna ataku: " << druzyna.playing[i].current_stats.attack << endl;
+    cout << "Statystka aktualna oborny: " << druzyna.playing[i].current_stats.defense << endl;
+    cout << "Druzyna: " << druzyna.nationality << endl << endl;
     }
+
     //trener.nationality = 0;
 
     return 0;
