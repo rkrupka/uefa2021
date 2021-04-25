@@ -1,0 +1,120 @@
+# depslib dependency file v1.0
+1618763121 source:d:\code blocks\uefa2020\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	"Formation.h"
+	"Overall.h"
+	"Person.h"
+	"Player.h"
+	"Coach.h"
+	"Team.h"
+
+1618566211 d:\code blocks\uefa2020\formation.h
+	<iostream>
+
+1618666761 d:\code blocks\uefa2020\overall.h
+	<iostream>
+
+1618762363 d:\code blocks\uefa2020\person.h
+	<iostream>
+
+1618761642 d:\code blocks\uefa2020\player.h
+	<iostream>
+	"Person.h"
+	"Overall.h"
+
+1618763103 d:\code blocks\uefa2020\coach.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Person.h"
+
+1618761671 d:\code blocks\uefa2020\team.h
+	<iostream>
+	"Player.h"
+	"Coach.h"
+	"Formation.h"
+
+1618762538 source:d:\code blocks\uefa2020\team.cpp
+	"Team.h"
+	<iostream>
+
+1618761785 source:d:\code blocks\uefa2020\player.cpp
+
+1618763202 source:d:\code blocks\uefa2020\coach.cpp
+	"Coach.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1619258959 source:c:\users\radek\documents\uefa2020\coach.cpp
+	"Coach.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1618763532 c:\users\radek\documents\uefa2020\coach.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Person.h"
+
+1619332229 c:\users\radek\documents\uefa2020\person.h
+	<iostream>
+	<fstream>
+	<string>
+
+1619330942 source:c:\users\radek\documents\uefa2020\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	"Formation.h"
+	"Overall.h"
+	"Person.h"
+	"Player.h"
+	"Coach.h"
+	"Team.h"
+
+1618763532 c:\users\radek\documents\uefa2020\formation.h
+	<iostream>
+
+1619276235 c:\users\radek\documents\uefa2020\overall.h
+	<iostream>
+
+1619335952 c:\users\radek\documents\uefa2020\player.h
+	<iostream>
+	"Person.h"
+	<cstdlib>
+	<ctime>
+
+1619332229 c:\users\radek\documents\uefa2020\team.h
+	<iostream>
+	"Player.h"
+	"Coach.h"
+	<fstream>
+	<cstdlib>
+	<ctime>
+	<string>
+
+1619335696 source:c:\users\radek\documents\uefa2020\player.cpp
+	"Player.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<ctime>
+
+1619334392 source:c:\users\radek\documents\uefa2020\team.cpp
+	"Team.h"
+	<iostream>
+
+1619331074 source:c:\users\radek\documents\uefa2020\person.cpp
+	"Person.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<ctime>
+	<string>
+
