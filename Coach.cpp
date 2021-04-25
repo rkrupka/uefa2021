@@ -10,8 +10,6 @@ using namespace std;
 
 Coach::Coach()
 {
-    srand( time( NULL ) );
-    int charisma =( rand() % 6 );
+    charisma =( rand() % 6 );
 
-    cout << "Charisma = " << charisma << endl;
 }

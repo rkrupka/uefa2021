@@ -32,7 +32,7 @@
     return cytat;
 }; */
 
-Person::Person()
+void Person::get_firstname()
 {
     int i = ( rand() % 100 ) + 1;
 
@@ -50,8 +50,11 @@ Person::Person()
             getline(plik1, first_name);
         }
     plik1.close();
+}
 
-    i = ( rand() % 100 ) + 1;
+void Person::get_lastname()
+{
+    int i = ( rand() % 100 ) + 1;
 
     fstream plik2;
     plik2.open("last_names.txt",ios::in);
@@ -67,4 +70,10 @@ Person::Person()
             getline(plik2, last_name);
         }
     plik2.close();
+}
+
+Person::Person()
+{
+    get_firstname();
+    get_lastname();
 };

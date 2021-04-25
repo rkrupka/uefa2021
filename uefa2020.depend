@@ -49,7 +49,7 @@
 	<cstdlib>
 	<ctime>
 
-1619338490 source:c:\users\radek\documents\uefa2020\coach.cpp
+1619369092 source:c:\users\radek\documents\uefa2020\coach.cpp
 	"Coach.h"
 	<iostream>
 	<cstdlib>
@@ -62,18 +62,16 @@
 	"Person.h"
 	"Player.h"
 
-1619332229 c:\users\radek\documents\uefa2020\person.h
+1619368109 c:\users\radek\documents\uefa2020\person.h
 	<iostream>
 	<fstream>
 	<string>
 
-1619366582 source:c:\users\radek\documents\uefa2020\main.cpp
+1619369063 source:c:\users\radek\documents\uefa2020\main.cpp
 	<iostream>
 	<string>
 	<cstdlib>
 	<ctime>
-	"Formation.h"
-	"Overall.h"
 	"Person.h"
 	"Player.h"
 	"Coach.h"
@@ -112,7 +110,7 @@
 	"Team.h"
 	<iostream>
 
-1619354025 source:c:\users\radek\documents\uefa2020\person.cpp
+1619368109 source:c:\users\radek\documents\uefa2020\person.cpp
 	"Person.h"
 	<iostream>
 	<fstream>

@@ -15,6 +15,8 @@ class Person
      string first_name;
      string last_name;
      //string getFirstName();
+     void get_firstname();
+     void get_lastname();
      Person();
 };
 #endif // PERSON_H
