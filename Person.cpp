@@ -34,7 +34,6 @@
 
 Person::Person()
 {
-    srand(time(NULL));
     int i = ( rand() % 100 ) + 1;
 
     fstream plik1;

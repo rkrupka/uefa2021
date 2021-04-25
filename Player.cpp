@@ -10,6 +10,22 @@
 
 using namespace std;
 
+void Player::basic_stats()
+{
+    int k = ( rand() % 50 ) + 51;
+    this->base.attack = k;
+    k = ( rand() % 50 ) + 51;
+    this->base.defense = k;
+}
+
+void Player::reset_disposition()
+{
+    int k = ( rand() % 16 ) - 10;
+    this->disposition.attack = k;
+    k = ( rand() % 16 ) - 10;
+    this->disposition.defense = 5;
+}
+
 Player::Player()
 {
     basic_stats();

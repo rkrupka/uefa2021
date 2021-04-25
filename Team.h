@@ -22,12 +22,7 @@ class Team// public Player, public Coach
 
     }
 
-    Player player1;
-    Player player2;
-    Player player3;
-    Player player4;
-    Player player5;
-    Player playing[5] = {player1, player2, player3, player4, player5};
+    Player player[5];
 
     Coach trener;
 
