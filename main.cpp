@@ -11,6 +11,9 @@ using namespace std;
 
 int main()
 {
+    int dalej = 1;
+    while (dalej)
+    {
     srand(time(NULL));
     Team druzyna[16];
     int score_team1 = 0;
@@ -20,7 +23,7 @@ int main()
     double avg_att[2] = {0, 0};
     double avg_def[2] = {0, 0};
 
-    for (int j = 0; j < 16; j++)
+    /*for (int j = 0; j < 16; j++)
     {
         cout << "/////////////////////////////////////////////////////////////////////" << endl;
         cout << "Imie trenera: " << druzyna[j].trener.first_name << " ,nazwisko trenera: " << druzyna[j].trener.last_name << endl;
@@ -35,7 +38,7 @@ int main()
         cout << "Statystka aktualna obrony: " << druzyna[j].player[i].current_stats.defense << endl;
         cout << "Druzyna: " << druzyna[j].nationality << endl;
         }
-    }
+    }*/
 
     for (int j = 0; j < 2; j++)
     {
@@ -56,9 +59,11 @@ int main()
         cout << avg_def[j] << endl;
     }
 
-    score_team1 = (avg_att[0] / avg_def[1])*(avg_att[0] / avg_def[1])*(avg_att[0] / avg_def[1]) + 0.5;
-    score_team2 = (avg_att[1] / avg_def[0])*(avg_att[1] / avg_def[0])*(avg_att[1] / avg_def[0]) + 0.5;
+    score_team1 = (avg_att[0] / avg_def[1])*(avg_att[0] / avg_def[1])*(avg_att[0] / avg_def[1]) + 0.2;
+    score_team2 = (avg_att[1] / avg_def[0])*(avg_att[1] / avg_def[0])*(avg_att[1] / avg_def[0]) + 0.2;
 
     cout << "Wynik meczu: " << score_team1 << " : " << score_team2 << endl;
+    cin >> dalej;
+    }
     return 0;
 }
