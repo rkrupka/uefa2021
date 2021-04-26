@@ -63,6 +63,7 @@ int main()
     score_team2 = (avg_att[1] / avg_def[0])*(avg_att[1] / avg_def[0])*(avg_att[1] / avg_def[0]) + 0.2;
 
     cout << "Wynik meczu: " << score_team1 << " : " << score_team2 << endl;
+    cout << "powtorzyc?" << endl;
     cin >> dalej;
     }
     return 0;
