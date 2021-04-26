@@ -47,16 +47,16 @@ int main()
             tmp_att[j] = tmp_att[j] + druzyna[j].player[i].current_stats.attack;
             tmp_def[j] = tmp_def[j] + druzyna[j].player[i].current_stats.defense;
         }
-        cout << tmp_att[j] << endl;
-        cout << tmp_def[j] << endl;
+        //cout << tmp_att[j] << endl;
+        //cout << tmp_def[j] << endl;
         avg_att[j] = (tmp_att[j] / 5);
         avg_def[j] = (tmp_def[j] / 5);
     }
 
     for (int j = 0; j < 2; j++)
     {
-        cout << avg_att[j] << endl;
-        cout << avg_def[j] << endl;
+        //cout << avg_att[j] << endl;
+        //cout << avg_def[j] << endl;
     }
 
     score_team1 = (avg_att[0] / avg_def[1])*(avg_att[0] / avg_def[1])*(avg_att[0] / avg_def[1]) + 0.2;
